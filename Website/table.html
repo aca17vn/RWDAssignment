@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timetable</title>
+<link rel="stylesheet" type="text/css" href="table.css">
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+</head>
+<body>
+<nav>
+  <div id="logo">Student's Union</div>
+  <label for="opt" class="switch">Menu</label>
+  <input type="checkbox" id="opt" />
+  <ul class="table">
+    <li><a href="#">Home</a></li>
+    <li> 
+      <!-- First Tier Drop Down -->
+      <label for="opt-1" class="switch">Areas</label>
+      <a href="#">Areas</a>
+      <input type="checkbox" id="opt-1"/>
+      <ul>
+        <li><a href="#">Area 1</a></li>
+        <li><a href="#">Area 2</a></li>
+        <li><a href="#">Area 3</a></li>
+      </ul>
+    </li>
+    <li> 
+      
+      <!-- First Tier Drop Down -->
+      <label for="opt-2" class="switch">Food</label>
+      <a href="#">Food</a>
+      <input type="checkbox" id="opt-2"/>
+      <ul>
+        <li><a href="#">Food 1</a></li>
+        <li><a href="#">Food 2</a></li>
+        <li> 
+          
+          <!-- Second Tier Drop Down -->
+          <label for="opt-3" class="switch">Food 3 click me</label>
+          <a href="#">Food3</a>
+          <input type="checkbox" id="opt-3"/>
+          <ul>
+            <li><a href="#">Food3 this</a></li>
+            <li><a href="#">Food 3 that</a></li>
+            <li><a href="#">Food 3 another option</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Timetable</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Accessibility</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</nav>
+<h1> A typical day of a CS student at University of Sheffield. </h1>
+
+<table class="zebra"> 
+<col>
+<col>
+<col>
+<col>
+<thead> 
+<tr> 
+    <th>Time</th> 
+    <th>Class</th> 
+    <th>Class Type</th> 
+    <th>Location</th> 
+    <th>Professor Name</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+    <td>9-10am</td> 
+    <td>Devices and Networks</td> 
+    <td>Lecture</td> 
+    <td>Dainton Building</td> 
+    <td>Ramsay Taylor</td> 
+</tr> 
+<tr> 
+    <td>10-11am</td> 
+    <td>Foundations of Computer Science</td> 
+    <td>Tutorial</td> 
+    <td>Diamond</td> 
+    <td>Paul Watton</td> 
+</tr> 
+<tr> 
+    <td>11-12am</td> 
+    <td>Machines and Intelligence</td> 
+    <td>Lecture</td> 
+    <td>Richard Roberts Building</td> 
+    <td>Rob Gaizauskas</td> 
+</tr> 
+<tr> 
+    <td>15-16pm</td> 
+    <td>Web and Internet Technology</td> 
+    <td>Lecture</td> 
+    <td>Diamond</td> 
+    <td>Emma Norling</td> 
+</tr> 
+</tbody> 
+</table> 
+</body>
+</html>
